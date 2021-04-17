@@ -151,7 +151,7 @@ export default function Resume() {
                             </div>
                             <div className="rowfront">
                                <div>
-                                   <h2> MongoDB </h2>
+                                   <h2> MongoDB  </h2>
                                </div>
                                <div>
                                <DiMongodb size="3rem" className="tecicon" color="#41A949"/>
