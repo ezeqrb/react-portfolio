@@ -11,9 +11,6 @@ export default function Projects() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-device-width: 1224px)'
       })
-      const isMobile = useMediaQuery({
-        query: '(max-device-width: 1223px)'
-      })
 
 
     const dhproject = {
@@ -58,7 +55,7 @@ export default function Projects() {
             console.log("ingresé a la funcion")
             console.log(key)
             setKey(key)
-            if(key == "all"){
+            if(key === "all"){
                 setFilter([dhproject , alexpe , mundopesca, dashboard])
             }else{
                 setFilter(projects.filter( proj => proj.key === key))} 
@@ -101,7 +98,7 @@ export default function Projects() {
                         exit={{ opacity: 0 }}    
                     >  
                     <div className="smallCard">
-                        <div><img src={item.img} className="imageCard" /></div>
+                        <div><img src={item.img} alt="ezequielromerobertani" className="imageCard" /></div>
                         <div className="typetext">type : {item.type}</div>
                         <div className="descript">{item.description}</div>
                     </div>

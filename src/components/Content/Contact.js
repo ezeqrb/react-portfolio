@@ -14,9 +14,6 @@ export default function Contact() {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1224px)'
   })
-  const isMobile = useMediaQuery({
-    query: '(max-device-width: 1223px)'
-  })
 
 
     const [isSubmitted , setIsSubmitted] = useState(false)

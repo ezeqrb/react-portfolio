@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React , {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 
 const useForm  = (callback , validate) => {
 
@@ -39,9 +39,9 @@ const useForm  = (callback , validate) => {
         })
     }
     useEffect(()=>{
+
         if(Object.keys(errors).length === 0 && isSubmitting ){
             callback()
-            
         }
     },[errors]) 
 

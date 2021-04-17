@@ -1,7 +1,7 @@
 import { React } from 'react'
 import './Profile.css'
-import  { FaGithub , FaSlack ,  FaInstagram , FaLinkedinIn , FaDiscord } from 'react-icons/fa'
-import { BrowserRouter as Router , NavLink } from "react-router-dom";
+import  { FaGithub , FaSlack ,   FaLinkedinIn , FaDiscord } from 'react-icons/fa'
+import { NavLink } from "react-router-dom";
 import Typewriter from 'typewriter-effect';
 
 
@@ -28,10 +28,10 @@ export default function Profile() {
         </h4>
         </div>
         <div className="social"> 
-        <a href="https://github.com/ezeqrb" target="_blank"> <FaGithub size="1.2em" className="social-icons"/></a>
-        <a href="https://github.com/ezeqrb" target="_blank"> <FaSlack size="1.2em"className="social-icons"/></a>
-        <a href="https://www.linkedin.com/in/eromerobertani/" target="_blank"> <FaLinkedinIn size="1.2em"className="social-icons"/></a>
-        <a href="https://github.com/ezeqrb" target="_blank"> <FaDiscord size="1.2em"className="social-icons"/></a>
+        <a href="https://github.com/ezeqrb" target="_blank" rel="noreferrer"> <FaGithub size="1.2em" className="social-icons"/></a>
+        <a href="https://github.com/ezeqrb" target="_blank" rel="noreferrer"> <FaSlack size="1.2em"className="social-icons"/></a>
+        <a href="https://www.linkedin.com/in/eromerobertani/" target="_blank" rel="noreferrer"> <FaLinkedinIn size="1.2em"className="social-icons"/></a>
+        <a href="https://github.com/ezeqrb" target="_blank" rel="noreferrer"> <FaDiscord size="1.2em"className="social-icons"/></a>
         </div>
       </div>
       <div className="divider div-transparent"></div>

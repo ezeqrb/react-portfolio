@@ -2,7 +2,7 @@ import React from 'react'
 import './Card.css'
 import './About.css'
 import { motion } from "framer-motion"
-import { BsFillTerminalFill ,BsFillImageFill, BsFillPuzzleFill, BsFillFlagFill ,
+import { BsFillTerminalFill ,BsFillImageFill, BsFillFlagFill ,
          BsFillMicFill , BsTools, BsMoon , BsSpeaker, BsGraphUp, BsFillFunnelFill } from 'react-icons/bs'
 import { useMediaQuery } from 'react-responsive'
 
@@ -13,10 +13,7 @@ export default function About() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-device-width: 1224px)'
       })
-      const isMobile = useMediaQuery({
-        query: '(max-device-width: 1223px)'
-      })
-
+ 
 
     return (
         <motion.div

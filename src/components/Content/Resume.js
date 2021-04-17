@@ -3,7 +3,7 @@ import './Card.css'
 import './Resume.css'
 import { motion } from "framer-motion"
 import { BsFillBriefcaseFill, BsBookHalf , BsFillImageFill , BsFillTerminalFill } from 'react-icons/bs'
-import {DiMongodb , DiMysql, DiReact, DiNodejs, DiJavascript1, DiHtml5, DiCss3, DiGoogleAnalytics , DiPhp, DiVisualstudio, DiPython} from 'react-icons/di'
+import {DiMongodb , DiMysql, DiReact, DiNodejs, DiHtml5, DiCss3} from 'react-icons/di'
 import { useMediaQuery } from 'react-responsive'
 
 
@@ -13,9 +13,7 @@ export default function Resume() {
     const isDesktopOrLaptop = useMediaQuery({
         query: '(min-device-width: 1224px)'
       })
-      const isMobile = useMediaQuery({
-        query: '(max-device-width: 1223px)'
-      })
+
 
     return (
         <motion.div
